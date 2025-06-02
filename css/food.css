@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Funnel Display", sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+ }
+ h1{
+    text-align: center;
+    color:#FFC107;
+    padding: 20px;
+ }
+ nav{
+    display:grid;
+    place-items: center;
+
+ }
+ nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+ }
+ nav ul a{
+    display: inline-block;
+    padding:20px;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    color:white;
+    font-size: 20px;
+ }
+ nav a:hover{
+    color:red;
+    
+ }
+ 
+
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.item {
+  
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+
+
+.item img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+ 
+  border-radius: 30px;
+  cursor:pointer;
+  transition: 0.2s ease;;
+  
+}
+.item img:hover{
+   transform: scale(1.08);
+
+}
+.item h4{
+   padding:5px;
+   text-align:center;
+}
+
+
+
+.item button {
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.item button a:hover{
+    color:red;
+    transform: scale(1.08);
+}
+
+.dish{
+   padding-bottom: 30px;
+   padding-top: 20px;
+   
+}

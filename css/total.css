@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Funnel Display", sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+ }
+ h1{
+    text-align: center;
+    color:#FFC107;
+    padding: 20px;
+ }
+ nav{
+    display:grid;
+    place-items: center;
+
+ }
+ nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+ }
+ nav ul a{
+    display: inline-block;
+    padding:20px;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    color:white;
+    font-size: 20px;
+ }
+ nav a:hover{
+    color:red;
+    
+ }
+ .main{
+    display: flex;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+  width: 90%;
+  max-width: 130px;
+  margin: 0 auto;
+  padding: 130px;
+  gap:60px;
+  justify-content: center;
+  
+ }
+ .logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.logo a {
+  text-decoration: none; 
+}
+
+.github-img {
+  width: 80px;
+  height: 100px;
+  border: none;
+  background: none;
+  transition: transform 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+.github-img:hover {
+  transform: scale(1.1);
+}
+
+.logo-name {
+  color: white;
+  font-size: 24px;
+  margin-top: 5px;
+  font-family: 'Delius', cursive;
+}
+
+.draw{
+  width: 100px;       
+  height: 100px;
+  border: none;       
+  background: none;   
+  transition: transform 0.2s ease-in-out;
+  margin-top: 20px; 
+  margin-left: 20px;
+}
+.draw a {
+  text-decoration: none; 
+}
+.linked{
+  width: 80px;
+  height: 100px;
+  border: none;
+  background: none;
+  transition: transform 0.2s ease-in-out;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.linked:hover {
+  transform: scale(1.1);
+}
+.in {
+  color: white; 
+  font-size: 24px;
+  margin-top: 5px;
+  font-family: 'Delius', cursive;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+.like{
+  width: 100px;       
+  height: 100px;
+  border: none;       
+  background: none;   
+  transition: transform 0.2s ease-in-out;
+  margin-top: 20px; 
+  margin-left: 20px;
+}
+.like a {
+  text-decoration: none;
+}
+.Insta{
+  width: 80px;
+  height: 100px;
+  border: none;
+  background: none;
+  transition: transform 0.2s ease-in-out;
+  display: block;
+}
+
+.Insta:hover {
+  transform: scale(1.1);
+}
+.insta {
+  color: white; 
+  font-size: 24px;
+  margin-top: 5px;
+  font-family: 'Delius', cursive;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
